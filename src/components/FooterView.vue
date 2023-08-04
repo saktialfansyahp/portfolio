@@ -36,7 +36,7 @@
 
       <v-card-text class="text-white">
         @ {{ new Date().getFullYear() }} —
-        <strong>AAE IdeaPro All Rights Reserved</strong>
+        <strong>Sakti Alfansyah Putra</strong>
       </v-card-text>
     </v-card>
   </v-footer>
