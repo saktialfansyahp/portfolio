@@ -378,13 +378,15 @@
                   label="Name"
                   persistent-hint
                   variant="outlined"
+                  v-model="name"
                 ></v-text-field>
               </v-col>
               <v-col cols="12" sm="6">
                 <v-text-field
-                  label="Phone No"
+                  label="City"
                   persistent-hint
                   variant="outlined"
+                  v-model="city"
                 ></v-text-field>
               </v-col>
             </v-row>
@@ -392,8 +394,11 @@
               label="Message"
               persistent-hint
               variant="outlined"
+              v-model="message"
             ></v-textarea>
-            <v-btn color="#FBDF7E" class="mt-2">Submit Now</v-btn>
+            <v-btn @click="sendMessage" color="#FBDF7E" class="mt-2"
+              >Submit Now</v-btn
+            >
           </v-col>
         </v-row>
       </v-col>
@@ -429,6 +434,16 @@ export default defineComponent({
       ],
     };
   },
+  data() {
+    return {
+      whatsappNumber: "6285334954057",
+      defaultMessage:
+        "Halo, saya tertarik dengan kesempatan kerjasama. Mari kita diskusikan lebih lanjut!",
+      name: "",
+      city: "",
+      message: "",
+    };
+  },
   methods: {
     downloadResume() {
       var filename = "Resume Alfan.pdf";
@@ -458,6 +473,29 @@ export default defineComponent({
         .catch((error) => {
           console.error("Terjadi kesalahan:", error);
         });
+    },
+    sendMessage() {
+      // Periksa apakah pengguna telah mengisi nama dan pesan
+      if (this.name && this.message) {
+        // Siapkan nomor WhatsApp dan pesan
+        const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
+          this.whatsappNumber
+        )}&text=${encodeURIComponent(
+          this.defaultMessage +
+            "\n\n" +
+            this.name +
+            "\n" +
+            "Dari " +
+            this.city +
+            "\n\n" +
+            this.message
+        )}`;
+
+        // Arahkan pengguna ke aplikasi WhatsApp
+        window.open(url, "_blank");
+      } else {
+        alert("Please fill in the required fields (Name and Message).");
+      }
     },
   },
   components: {
