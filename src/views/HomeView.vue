@@ -431,7 +431,7 @@ export default defineComponent({
   },
   methods: {
     downloadResume() {
-      var filename = "resume.pdf";
+      var filename = "Resume Alfan.pdf";
       var filePath = "/public/" + filename;
 
       fetch(filePath)
