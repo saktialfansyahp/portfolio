@@ -432,13 +432,13 @@ export default defineComponent({
   methods: {
     downloadResume() {
       var filename = "Resume Alfan.pdf";
-      var filePath = "/public/" + filename;
+      var filePath = filename;
 
       fetch(filePath)
         .then((response) => response.blob())
         .then((blob) => {
           // Buat URL dari blob
-          const url = URL.createObjectURL(blob);
+          const url = window.URL.createObjectURL(new Blob([blob]));
 
           // Buat elemen anchor (link) untuk mendownload file
           const a = document.createElement("a");
@@ -453,7 +453,10 @@ export default defineComponent({
           document.body.removeChild(a);
 
           // Hapus URL setelah digunakan
-          URL.revokeObjectURL(url);
+          window.URL.revokeObjectURL(url);
+        })
+        .catch((error) => {
+          console.error("Terjadi kesalahan:", error);
         });
     },
   },
