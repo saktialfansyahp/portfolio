@@ -7,8 +7,10 @@
           <v-col cols="5">
             <div style="position: relative" class="mt-16">
               <h1 class="text-grey">Hello,</h1>
-              <h1 class="text-white">I'M Lara Elizabeth</h1>
-              <span class="text-grey">Web Designer & Developer</span><br />
+              <h1 class="text-white">I'm Sakti Alfansyah Putra</h1>
+              <span class="text-grey"
+                >Back End Developer with Laravel Framework</span
+              ><br />
 
               <v-btn tile dark class="text-yellow mt-8" variant="outlined">
                 Contact me
@@ -34,7 +36,7 @@
           </v-col>
           <v-col cols="5">
             <div style="position: relative; z-index: 9999" class="mt-16">
-              <v-img src="i1.png" contain max-height="300"></v-img>
+              <v-img src="i13.png" contain max-height="300"></v-img>
             </div>
           </v-col>
         </v-row>
@@ -44,7 +46,7 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="egg">
-                <v-img src="i2.png" max-height="300" class=""></v-img>
+                <v-img src="i14.png" max-height="300" class=""></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
@@ -56,20 +58,20 @@
                   label="track-color"
                 ></v-slider>
               </div>
-              <h4 class="mt-n4">I Am a Creative Web Designer</h4>
-              <h4 class="">And Developer</h4>
+              <h4 class="mt-n4">I Am a Back End Developer</h4>
               <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
-              </p>
-              <br />
-              <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
+                As a skilled Back End Developer with expertise in Laravel, I
+                possess a strong understanding of web development principles and
+                server-side technologies. I have hands-on experience in
+                designing, developing, and maintaining robust and scalable
+                applications. My proficiency in Laravel's MVC architecture,
+                Eloquent ORM, and RESTful APIs allows me to efficiently create
+                efficient and secure back-end solutions. I am well-versed in
+                database management, ensuring seamless integration with
+                front-end technologies and optimizing application performance.
+                As a detail-oriented problem solver, I strive to deliver
+                high-quality code and collaborate effectively with
+                cross-functional teams to meet project objectives
               </p>
               <v-btn tile dark color="yellow" class="mt-4">
                 Download Resume
@@ -90,56 +92,141 @@
       </div>
       <v-col cols="12" class="padd" id="portfolio">
         <div class="first" id="project">
-          <v-row>
-            <v-col cols="12">
+          <v-row class="services-grid">
+            <v-col cols="12" md="4">
               <div class="child">
                 <v-btn
                   icon="fas fa-laptop"
                   color="#FBDF7E"
                   class="text-white"
                 ></v-btn>
-                <h3 class="ml-3 mt-4">Web Design</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                <h3 class="ml-3 mt-4">Web Application Development</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  I have a proven track record of developing full-fledged web
+                  applications from the ground up, using Laravel as the core
+                  framework. From conceptualization to deployment, I ensure that
+                  each application is tailored to meet the specific needs and
+                  requirements of the client.
                 </p>
               </div>
+            </v-col>
+            <v-col cols="12" md="4">
               <div class="child">
                 <v-btn
-                  icon="fas fa-mobile-alt"
+                  icon="fas fa-database"
                   color="#FBDF7E"
                   class="text-white"
                 ></v-btn>
-                <h3 class="ml-3 mt-4">App Design</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                <h3 class="ml-3 mt-4">Database Management</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  With a deep understanding of Laravel's integration with
+                  popular database management systems like MySQL and PostgreSQL,
+                  I design and manage efficient database structures. This
+                  ensures smooth data handling and retrieval, contributing to
+                  the overall performance of the applications.
                 </p>
               </div>
+            </v-col>
+            <v-col cols="12" md="4">
               <div class="child">
                 <v-btn
-                  icon="fas fa-camera"
+                  icon="fas fa-code"
                   color="#FBDF7E"
                   class="text-white"
                 ></v-btn>
-                <h3 class="ml-3 mt-4">Photography</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                <h3 class="ml-3 mt-4">API Development</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  I excel in crafting RESTful APIs that facilitate seamless
+                  communication between front-end and back-end components of web
+                  applications. This allows for easy integration with various
+                  third-party services and enhances the application's
+                  functionality.
                 </p>
               </div>
             </v-col>
           </v-row>
-          <v-divider></v-divider>
         </div>
       </v-col>
+      <v-col cols="12" class="padd mb-8" id="portfolio">
+        <div class="first" id="project">
+          <v-row class="services-grid">
+            <v-col cols="12" md="4">
+              <div class="child">
+                <v-btn
+                  icon="fas fa-cogs"
+                  color="#FBDF7E"
+                  class="text-white"
+                ></v-btn>
+                <h3 class="ml-3 mt-4">Problem-Solving Skills</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  I thrive in troubleshooting and resolving technical challenges
+                  that may arise during the development process. My ability to
+                  analyze issues and implement effective solutions ensures
+                  smooth development cycles.
+                </p>
+              </div>
+            </v-col>
+            <v-col cols="12" md="4">
+              <div class="child">
+                <v-btn
+                  icon="fas fa-wrench"
+                  color="#FBDF7E"
+                  class="text-white"
+                ></v-btn>
+                <h3 class="ml-3 mt-4">Migration and Maintenance</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  As part of my services, I handle database migrations and
+                  perform routine maintenance on Laravel applications. This
+                  ensures that the applications remain up-to-date, efficient,
+                  and free of technical debt.
+                </p>
+              </div>
+            </v-col>
+            <v-col cols="12" md="4">
+              <div class="child">
+                <v-btn
+                  icon="fas fa-users"
+                  color="#FBDF7E"
+                  class="text-white"
+                ></v-btn>
+                <h3 class="ml-3 mt-4">Team Collaboration</h3>
+                <p
+                  class="text-grey ml-3 mt-4 text-caption"
+                  style="text-align: justify"
+                >
+                  Working harmoniously in a team environment is second nature to
+                  me. I collaborate effectively with Front-end Developers, UI/UX
+                  Designers, and other stakeholders, contributing to the
+                  successful completion of complex projects.
+                </p>
+              </div>
+            </v-col>
+          </v-row>
+        </div>
+      </v-col>
+      <v-divider></v-divider>
       <v-col cols="12" sm="12" id="services">
-        <div class="d-flex justify-center mb-6">
+        <div class="d-flex justify-center mb-6 mt-6">
           <v-btn color="#FBDF7E" class="mr-2">All</v-btn>
-          <v-btn class="mr-2" variant="tonal">Web Design</v-btn>
+          <!-- <v-btn class="mr-2" variant="tonal">Web Design</v-btn>
           <v-btn class="mr-2" variant="tonal">Front Design</v-btn>
           <v-btn class="mr-2" variant="tonal"> Photography</v-btn>
-          <v-btn variant="tonal"> Illustration</v-btn>
+          <v-btn variant="tonal"> Illustration</v-btn> -->
         </div>
       </v-col>
       <v-col cols="12" class="imgHover">
@@ -159,7 +246,7 @@
           </template>
         </v-row>
       </v-col>
-      <v-col cols="12" sm="12">
+      <!-- <v-col cols="12" sm="12">
         <div class="d-flex justify-center mb-6">
           <v-btn color="#FBDF7E" class="mt-4">Load More</v-btn>
         </div>
@@ -214,8 +301,8 @@
             </v-col>
           </v-row>
         </div>
-      </v-col>
-      <v-col cols="12" id="biog">
+      </v-col> -->
+      <!-- <v-col cols="12" id="biog">
         <div class="hire">
           <v-row>
             <v-col cols="12" sm="8">
@@ -231,7 +318,7 @@
             </v-col>
           </v-row>
         </div>
-      </v-col>
+      </v-col> -->
       <v-col cols="12" sm="12" class="px-16" id="contact">
         <v-row>
           <v-col cols="12" sm="4">
@@ -244,7 +331,8 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">Your Street SYO,yourArea Dream </span
+              <span class="text-caption"
+                >Berlian Street 17A Bangselok Sumenep </span
               ><br />
               <v-btn
                 icon="fas fa-phone-alt"
@@ -253,8 +341,8 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">00235 - 6521 </span> <br />
-              <span class="text-caption">00235 - 6521 </span> <br />
+              <span class="text-caption">085334954057 ( Whatsapp ) </span>
+              <br />
               <v-btn
                 icon="fas fa-envelope"
                 color=""
@@ -262,18 +350,21 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
+              <span class="text-caption">saktialfansyahp@gmail.com </span>
+              <br />
             </div>
           </v-col>
           <v-col cols="12" sm="8">
             <h1 class="mt-8">Send your message</h1>
             <v-divider></v-divider>
             <span class="text-caption"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              fugiat officia, odio eaque exercitationem libero nesciunt placeat,
-              repellat obcaecati sed tenetur! Est labore aliquam amet
-              consequatur necessitatibus fugit obcaecati facilis!</span
+              >Please don't hesitate to reach out to me with any inquiries,
+              opportunities, or feedback you may have. Whether it's regarding my
+              application, collaboration proposals, or any other matter, I am
+              eager to hear from you. I will do my best to respond promptly and
+              am looking forward to engaging in meaningful discussions. Thank
+              you for considering my profile, and I hope to connect with you
+              soon.</span
             >
             <v-row class="mt-10">
               <v-col cols="12" sm="6">
@@ -321,30 +412,21 @@ export default defineComponent({
 
       items: [
         {
-          img: "i3.jpg",
+          img: "i3.png",
         },
         {
-          img: "i4.jpg",
+          img: "i4.png",
         },
         {
-          img: "i5.jpg",
-        },
-        {
-          img: "i6.jpeg",
-        },
-        {
-          img: "i9.jpg",
-        },
-        {
-          img: "i8.jpg",
+          img: "i5.png",
         },
       ],
     };
   },
   components: {
     NavBar,
-    FooterView
-},
+    FooterView,
+  },
 });
 </script>
 <style scoped>
@@ -386,7 +468,7 @@ export default defineComponent({
   margin-left: 100px;
   margin-top: 50px;
   width: 356px;
-  height: 300px;
+  height: 350px;
   background-color: #fbdf7e;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
@@ -420,5 +502,4 @@ export default defineComponent({
   background-color: #e9e9e9;
   margin-top: -24px;
 }
-
 </style>
