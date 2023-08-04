@@ -431,14 +431,30 @@ export default defineComponent({
   },
   methods: {
     downloadResume() {
-      var filename = "Resume Alfan.pdf";
+      var filename = "resume.pdf";
       var filePath = "/public/" + filename;
 
-      var a = document.createElement("a");
-      a.href = filePath;
-      a.download = filename;
+      fetch(filePath)
+        .then((response) => response.blob())
+        .then((blob) => {
+          // Buat URL dari blob
+          const url = URL.createObjectURL(blob);
 
-      a.click();
+          // Buat elemen anchor (link) untuk mendownload file
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+
+          // Pemicu klik pada elemen anchor untuk memulai proses download
+          a.click();
+
+          // Hapus elemen anchor setelah download selesai
+          document.body.removeChild(a);
+
+          // Hapus URL setelah digunakan
+          URL.revokeObjectURL(url);
+        });
     },
   },
   components: {
