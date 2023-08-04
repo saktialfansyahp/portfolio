@@ -73,7 +73,13 @@
                 high-quality code and collaborate effectively with
                 cross-functional teams to meet project objectives
               </p>
-              <v-btn tile dark color="yellow" class="mt-4">
+              <v-btn
+                @click="downloadResume"
+                tile
+                dark
+                color="yellow"
+                class="mt-4"
+              >
                 Download Resume
               </v-btn>
             </v-col>
@@ -422,6 +428,18 @@ export default defineComponent({
         },
       ],
     };
+  },
+  methods: {
+    downloadResume() {
+      var filename = "Resume Alfan.pdf";
+      var filePath = "/public/" + filename;
+
+      var a = document.createElement("a");
+      a.href = filePath;
+      a.download = filename;
+
+      a.click();
+    },
   },
   components: {
     NavBar,
