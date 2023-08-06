@@ -335,7 +335,8 @@
                 color=""
                 class="mt-10"
                 variant="outlined"
-                hre="https://goo.gl/maps/7sV3etoFzSmFjAay7"
+                href="https://goo.gl/maps/7sV3etoFzSmFjAay7"
+                target="_blank"
               ></v-btn
               ><br />
               <span class="text-caption"
@@ -347,6 +348,7 @@
                 class="mt-10"
                 variant="outlined"
                 href="wa.me/628533495057"
+                target="_blank"
               ></v-btn
               ><br />
               <span class="text-caption">085334954057 ( Whatsapp ) </span>
@@ -357,6 +359,7 @@
                 class="mt-10"
                 variant="outlined"
                 href="mailto:saktialfansyahp@gmail.com"
+                target="_blank"
               ></v-btn
               ><br />
               <span class="text-caption">saktialfansyahp@gmail.com </span>
