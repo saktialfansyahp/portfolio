@@ -347,7 +347,7 @@
                 color=""
                 class="mt-10"
                 variant="outlined"
-                href="wa.me/628533495057"
+                href="https://wa.me/628533495057"
                 target="_blank"
               ></v-btn
               ><br />
