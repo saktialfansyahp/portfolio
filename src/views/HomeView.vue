@@ -452,7 +452,7 @@ export default defineComponent({
   },
   methods: {
     downloadResume() {
-      var filename = "Resume Alfan.pdf";
+      var filename = "CV Sakti Alfansyah Putra.pdf";
       var filePath = filename;
 
       fetch(filePath)
