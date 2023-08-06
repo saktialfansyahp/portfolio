@@ -327,7 +327,7 @@
       </v-col> -->
       <v-col cols="12" sm="12" class="px-16" id="contact">
         <v-row>
-          <!-- <v-col cols="12" sm="4">
+          <v-col cols="12" sm="4">
             <div class="child">
               <h1>Contact info.</h1>
               <v-btn
@@ -359,7 +359,7 @@
               <span class="text-caption">saktialfansyahp@gmail.com </span>
               <br />
             </div>
-          </v-col> -->
+          </v-col>
           <v-col cols="12" sm="8">
             <h1 class="mt-8">Send your message</h1>
             <v-divider></v-divider>
