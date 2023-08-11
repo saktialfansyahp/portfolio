@@ -5,16 +5,8 @@
       <div class="head">
         <v-row>
           <v-col cols="5">
-            <div style="position: relative" class="mt-16">
-              <h1 class="text-grey">Hello,</h1>
-              <h1 class="text-white">I'm Sakti Alfansyah Putra</h1>
-              <span class="text-grey"
-                >Back End Developer with Laravel Framework</span
-              ><br />
-
-              <v-btn tile dark class="text-yellow mt-8" variant="outlined">
-                Contact me
-              </v-btn>
+            <div style="position: relative; z-index: 9999" class="mt-16">
+              <v-img src="i13.png" contain max-height="300"></v-img>
             </div>
           </v-col>
           <v-col cols="2">
@@ -35,8 +27,16 @@
             </div>
           </v-col>
           <v-col cols="5">
-            <div style="position: relative; z-index: 9999" class="mt-16">
-              <v-img src="i13.png" contain max-height="300"></v-img>
+            <div style="position: relative" class="mt-16">
+              <h1 class="text-grey">Hello,</h1>
+              <h1 class="text-white">I'm Sakti Alfansyah Putra</h1>
+              <span class="text-grey"
+                >Back End Developer with Laravel Framework</span
+              ><br />
+
+              <v-btn tile dark class="text-yellow mt-8" variant="outlined">
+                Contact me
+              </v-btn>
             </div>
           </v-col>
         </v-row>
