@@ -27,7 +27,7 @@
             </div>
           </v-col>
           <v-col cols="5">
-            <div style="position: relative z-index: 9999" class="mt-16">
+            <div style="position: relative; z-index: 9999" class="mt-16">
               <h1 class="text-grey">Hello,</h1>
               <h1 class="text-white">I'm Sakti Alfansyah Putra</h1>
               <span class="text-grey"
