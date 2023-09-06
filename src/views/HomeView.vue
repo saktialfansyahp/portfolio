@@ -437,6 +437,15 @@ export default defineComponent({
         {
           img: "i5.png",
         },
+        {
+          img: "i15.png"
+        },
+        {
+          img: "i16.png"
+        },
+        {
+          img: "i17.png"
+        },
       ],
     };
   },
@@ -452,7 +461,7 @@ export default defineComponent({
   },
   methods: {
     downloadResume() {
-      var filename = "CV Sakti Alfansyah Putra.pdf";
+      var filename = "CV by Indeed-Sertifikat MSIB.pdf";
       var filePath = filename;
 
       fetch(filePath)
